@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  ngOnInit() {
+    console.log("Home page");
+  }
+
 }

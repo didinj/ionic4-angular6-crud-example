@@ -4,18 +4,21 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Ionic Blank
+      Clasroom List
     </ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/create"><ion-icon name="add-circle"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
+    <ion-item *ngFor="let cr of classrooms" (click)="showDetail(cr.id)">
+      <ion-icon name="desktop" slot="start"></ion-icon>
+      {{cr.class_name}}
       <div class="item-note" slot="end">
-        {{item.note}}
+        {{cr.createdAt | date}}
       </div>
     </ion-item>
   </ion-list>

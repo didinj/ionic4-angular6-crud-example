@@ -1,5 +1,7 @@
 {
   "name": "ionic4-angular6-crud",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
