@@ -27,7 +27,7 @@
     "@ionic/ng-toolkit": "1.0.0",
     "@ionic/schematics-angular": "1.0.1",
     "cordova-android": "6.4.0",
-    "cordova-ios": "4.5.5",
+    "cordova-ios": "6.2.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
     "cordova-plugin-ionic-webview": "^1.2.1",
